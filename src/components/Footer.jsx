@@ -5,7 +5,7 @@ function Footer() {
     <div className="text-white flex  px-32   justify-center items-center h-60 pt-10">
       <div className="w-1/2  flex flex-col gap-3">
         <p className="font-bold text-4xl">Subscribe to my</p>
-        <p className="font-bold text-4xl text-sky-600">NewsLetter</p>
+        <p className="font-bold text-4xl text-sky-600">Newsletter</p>
         <div className="w-96">
           <p className="text-x1  ">
             Never miss an update Subscribe to our newsletter for exclusive
