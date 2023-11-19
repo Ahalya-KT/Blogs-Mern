@@ -3,7 +3,7 @@ import Landingpage from "./pages/Landing/Landingpage";
 
 function App() {
   return (
-    <div>
+    <div className="bg-slate-950">
       <Landingpage />
     </div>
   );
