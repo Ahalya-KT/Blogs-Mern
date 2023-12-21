@@ -4,7 +4,7 @@ import { CiLinkedin, CiTwitter } from "react-icons/ci";
 
 function Testmonial({ img, title, about }) {
   return (
-    <div className="text-white px-10 py-20 bg-slate-900 rounded-md shadow-md text-center">
+    <div className="text-white lg:flex-row px-10 py-20 bg-slate-900 rounded-md shadow-md text-center  ">
       <div className="px-14">
         <img className="w-12 h-12 rounded-full" src={img} />
       </div>

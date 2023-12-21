@@ -4,7 +4,6 @@ import Footer from "../../components/Footer";
 import Gradientbtn from "../../components/Gradientbtn";
 import ProviderCard from "./ProviderCard";
 import Testmonial from "./Testmonial";
-import { AiFillYoutube } from "react-icons/ai";
 
 function Landingpage() {
   return (
@@ -63,11 +62,11 @@ function Landingpage() {
       {/* Testmonials */}
 
       <div className="px-20 py-16 ">
-        <div className="flex items-center justify-center">
+        <div className="flex  items-center justify-center">
           <p className="text-white font-bold text-3xl   ">Testmonials</p>
         </div>
 
-        <div className="flex justify-center items-center py-20 gap-6">
+        <div className=" lg:flex flex-row lg:gap-3 justify-center items-center py-20 ">
           <Testmonial
             img="https://png.pngitem.com/pimgs/s/50-503557_young-man-png-image-background-nitro-canada-hair.png"
             title="mary john"
@@ -117,7 +116,7 @@ function Landingpage() {
           </div>
 
           {/* div2 */}
-          <div className="flex items-center justify-center px-52 py-10 gap-8 ">
+          <div className="lg:flex items-center justify-center px-52 py-10 gap-8 ">
             <div className="bg-amber-100 w-2/5 h-60 rounded-2xl px-3 py-8  ">
               <button className="bg-slate-100 w-20 h-8 rounded-md text-amber-500">
                 Turorial
@@ -131,7 +130,7 @@ function Landingpage() {
             </div>
 
             <div className="bg-fuchsia-300 w-3/5 h-60 rounded-2xl px-3 py-8">
-              <button className="bg-slate-100 w-20 h-8 rounded-md  text-fuchsia-500">
+              <button className="bg-slate-100 w-20 h-8 rounded-md  text-fuchsia-600">
                 Projection
               </button>
               <div className="py-11 px-4">

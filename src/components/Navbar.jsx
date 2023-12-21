@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -8,7 +8,7 @@ function Navbar() {
         <p className="font-bold text-xl">BLOGS</p>
       </div>
       <nav className="flex gap-9">
-        <p>Home</p>
+        <Link to="/">Home</Link>
         <p>Works</p>
         <p>Providers</p>
         <p>Contact us</p>

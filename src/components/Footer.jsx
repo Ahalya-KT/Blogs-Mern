@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="text-white flex  px-32   justify-center items-center h-60 pt-10">
+    <div className="text-white lg:flex  px-32 justify-center items-center h-60 pt-10">
       <div className="w-1/2  flex flex-col gap-3">
         <p className="font-bold text-4xl">Subscribe to my</p>
         <p className="font-bold text-4xl text-sky-600">Newsletter</p>
